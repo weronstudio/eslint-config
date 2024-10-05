@@ -1,6 +1,6 @@
 # Weron ESLint config
 
-## Whats included?
+## What's included?
 
 - Standard base configuration;
 - React and React Hooks plugins;
@@ -19,11 +19,9 @@ npm i -D eslint @weron/eslint-config
 
 ## Usage
 
+Add the appropriate configuration to your `.eslintrc.json` based on the project type:
+
 ### React (with Next.js)
-
-For Next.js projects, extend the configuration with Next.js-specific settings.
-
-In your `.eslintrc.json`
 
 ```
 {
@@ -33,10 +31,6 @@ In your `.eslintrc.json`
 
 ### React (without Next.js)
 
-For React projects without Next.js, extend the configuration as follows:
-
-In your `.eslintrc.json`
-
 ```
 {
   "extends": "@weron/eslint-config/react"
@@ -44,10 +38,6 @@ In your `.eslintrc.json`
 ```
 
 ### Node.js
-
-For Node.js projects, extend the configuration like this:
-
-In your `.eslintrc.json`
 
 ```
 {
