@@ -6,11 +6,11 @@ module.exports = {
     jest: true,
   },
   extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
   ],
   plugins: ['react', 'jsx-a11y', '@typescript-eslint', 'simple-import-sort'],
   parser: '@typescript-eslint/parser',
@@ -22,11 +22,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'react/self-closing-comp': 'error',
-    'react/react-in-jsx-scope': 'off',
-    'react/prop-types': 'off',
-    'react/no-unknown-property': 'error',
-    'simple-import-sort/imports': 'error',
     'prettier/prettier': [
       'error',
       {
@@ -39,6 +34,10 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'react/self-closing-comp': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
+    'react/no-unknown-property': 'error',
     'jsx-a11y/alt-text': [
       'warn',
       {
@@ -51,6 +50,7 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    'simple-import-sort/imports': 'error',
   },
   settings: {
     react: {
@@ -60,5 +60,4 @@ module.exports = {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
   },
-  ignorePatterns: ['node_modules'],
 }

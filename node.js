@@ -15,7 +15,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'simple-import-sort/imports': 'error',
     'prettier/prettier': [
       'error',
       {
@@ -27,6 +26,7 @@ module.exports = {
         semi: false,
       },
     ],
+    'simple-import-sort/imports': 'error',
   },
   settings: {
     'import/parsers': {
