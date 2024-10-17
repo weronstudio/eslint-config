@@ -1,6 +1,6 @@
 {
   "name": "@weron/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint configuration used by Weron.",
   "repository": {
     "url": "weronstudio/eslint-config"
@@ -9,14 +9,14 @@
   "private": false,
   "peerDependencies": {
     "eslint": "^8",
-    "typescript": "^5"
+    "typescript": ">=5"
   },
   "peerDependenciesMeta": {
     "typescript": {
       "optional": true
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
     "@typescript-eslint/typescript-estree": "^8.6.0",
