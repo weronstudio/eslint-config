@@ -14,7 +14,7 @@
 Install dependencies:
 
 ```
-npm i -D eslint @weron/eslint-config
+npm i -D @weron/eslint-config
 ```
 
 ## Usage
