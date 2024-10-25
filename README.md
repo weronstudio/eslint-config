@@ -1,4 +1,4 @@
-# Weron ESLint config
+# Weron ESLint Config
 
 ## What's included?
 
@@ -7,7 +7,8 @@
 - JSX a11y for accessibility;
 - Prettier integration;
 - Next.js support;
-- Node.js support.
+- Node.js support;
+- Vanilla support.
 
 ## Installation
 
@@ -42,5 +43,13 @@ Add the appropriate configuration to your `.eslintrc.json` based on the project 
 ```
 {
   "extends": "@weron/eslint-config/node"
+}
+```
+
+### Vanilla
+
+```
+{
+  "extends": "@weron/eslint-config/vanilla"
 }
 ```
