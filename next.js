@@ -8,8 +8,6 @@ module.exports = {
     'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'next/core-web-vitals',
-    'next/typescript',
   ],
   plugins: ['jsx-a11y', '@typescript-eslint', 'simple-import-sort'],
   parser: '@typescript-eslint/parser',
